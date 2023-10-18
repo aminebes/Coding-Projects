@@ -1,0 +1,58 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+======= RESTART: C:\Users\HP\OneDrive\Desktop\ITI 1520\D2_300289176\d2.py ======
+#Test Question 1
+patinage(30, -10)
+True
+patinage(25.4, -15)
+False
+patinage(35, -12)
+True
+#Test Question 2
+>>> alphaNote(95)
+'A+'
+>>> alphaNote(85)
+'A'
+>>> alphaNote(72)
+'B'
+>>> alphaNote(45)
+'E'
+>>> #Test Question 3
+... alphaNoteVerif()
+Veuillez introduire la note numérique (de 0 a 100):102
+Erreur! Veuillez réintroduire la note numérique (de 0 a 100):-100
+Erreur! Veuillez réintroduire la note numérique (de 0 a 100):87
+Note: A : Réussi
+>>> alphaNoteVerif()
+Veuillez introduire la note numérique (de 0 a 100):-2
+Erreur! Veuillez réintroduire la note numérique (de 0 a 100):203
+Erreur! Veuillez réintroduire la note numérique (de 0 a 100):45
+Note: E : Echoue
+>>> #Test Question 4
+>>> boucles(14)
+1 3 5 7 9 11 13
+14 12 10 8 6 4 2
+>>> boucles(11)
+1 3 5 7 9 11
+11 9 7 5 3 1
+>>> #Test Question 5
+>>> facteursDeN(18)
+Facteurs de 18 : 2 3 6 9  
+Somme des Facteurs: 20
+False
+>>> facteursDeN(5)
+Facteurs de 5 :  
+Somme des Facteurs: 0
+True
+>>> facteursDeN(10)
+Facteurs de 10 : 2 5  
+Somme des Facteurs: 7
+True
+>>> #Test Question 6
+>>> carreParfait(25)
+25 est un carré parfait et sa racine carrée est: 5
+True
+>>> carreParfait(24)
+24 n'est pas un carré parfait.
+False

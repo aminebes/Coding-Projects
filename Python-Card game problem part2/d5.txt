@@ -1,0 +1,27 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======= RESTART: C:\Users\HP\OneDrive\Desktop\ITI 1520\D5_300289176\d5.py ======
+>>> #Test Q1
+>>> triangle(1)
+*
+>>> triangle(3)
+*
+**
+***
+>>> triangle(5)
+*
+**
+***
+****
+*****
+>>> #Test Q2
+>>> prodListePos_rec([0.5,-1,2,-2,3,-3,4,-4,5,-5],len([0.5,-1,2,-2,3,-3,4,-4,5,-5]))
+60.0
+>>> prodListePos_rec([],len([]))
+1
+>>> prodLRec1([1,-1,0.25,8,-3])
+2.0
+>>> 
+>>> prodLRec1([])
+1

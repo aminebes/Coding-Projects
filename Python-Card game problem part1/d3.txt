@@ -1,0 +1,38 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======= RESTART: C:\Users\HP\OneDrive\Desktop\ITI 1520\d3_300289176\d3.py ======
+>>> #Test Q1
+>>> compte100([1,102,-3.5,104])
+2
+>>> compte100([])
+0
+>>> compte100([100,25,46,87,651,321])
+2
+>>> #Test Q2
+>>> sommeListeDiv2([100,45,97,2,34,57])
+136
+>>> sommeListeDiv2([])
+0
+>>> sommeListeDiv2([-10,57,-3,4,-4])
+-10
+>>> #Test Q3
+>>> triples("efg")
+False
+>>> triples("abeeed58dd")
+True
+>>> triples("abc2eee")
+True
+>>> triples("a23ffffff")
+True
+>>> triples("efeegh")
+False
+>>> #Test Q4
+>>> momo("g")
+'g1'
+>>> momo("eeffffhhhhy")
+'e2f4h4y1'
+>>> momo("eee33333")
+'e335'
+>>> momo("eeefceey")
+'e3f1c1e2y1'
